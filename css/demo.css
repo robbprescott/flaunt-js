@@ -37,48 +37,48 @@ ol {
     Flaunt JS Navigation
 \*------------------------------------*/
 
-.nav {
+.a-nav-wrapper {
 	position:relative;
 	display:inline-block;
 	font-size:14px;
 	font-weight:900;
 }
-.nav-list {
+.a-nav-main {
 	text-align:left;
 }
-.nav-item {
+.a-nav-item-0 {
 	float:left;
 	*display:inline;
 	zoom:1;
 	position:relative;
 }
-.nav-item a {
+.a-nav-item-0 a {
 	display:block;
 	color:#FFF;
 	padding:15px 20px;
 	background:#7A1E61;
 	border-bottom:1px solid #8B2870;
 }
-.nav-item > a:hover {
+.a-nav-item-0 > a:hover {
 	background:#822368;
 }
-.nav-item:hover .nav-submenu {
+.a-nav-item-0:hover .a-nav-item-1 {
 	display:block;
 }
 /* Navigation submenu */
-.nav-submenu {
+.nav-depth-1 {
 	display:none;
 	position:absolute;
 	left:0;
 	width:180px;
 }
-.nav-submenu-item a {
+.a-nav-item-1 a {
 	background:#8B2770;
 	border-bottom:1px solid #9A337E;
 	display:block;
 	padding:15px;
 }
-.nav-submenu-item a:hover {
+.a-nav-item-1 a:hover {
 	background:#932C77;
 }
 /* Mobile navigation */
@@ -130,18 +130,18 @@ ol {
 	.nav-mobile {
 		display:block;
 	}
-	.nav {
+	.a-nav-wrapper {
 		width:100%;
 		padding:50px 0 0;
 	}
-	.nav-list {
+	.a-nav-main {
 		display:none;
 	}
-	.nav-item {
+	.a-nav-item-0 {
 		width:100%;
 		float:none;
 	}
-	.nav-item > a {
+	.a-nav-item-0 > a {
 		padding:15px;
 	}
 	.nav-click {
@@ -152,7 +152,7 @@ ol {
 		-webkit-border-radius:5px 5px 0 0;
 		-moz-border-radius:5px 5px 0 0;
 	}
-	.nav-item:hover .nav-submenu {
+	.a-nav-item-0:hover .a-nav-item-1 {
 		display:none;
 	}
 	.nav-submenu {
