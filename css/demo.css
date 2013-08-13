@@ -62,7 +62,7 @@ ol {
 .a-nav-item-0 > a:hover {
 	background:#822368;
 }
-.a-nav-item-0:hover .a-nav-item-1 {
+.a-nav-item-0:hover .nav-depth-1 {
 	display:block;
 }
 /* Navigation submenu */
@@ -152,10 +152,10 @@ ol {
 		-webkit-border-radius:5px 5px 0 0;
 		-moz-border-radius:5px 5px 0 0;
 	}
-	.a-nav-item-0:hover .a-nav-item-1 {
+	.a-nav-item-0:hover .nav-depth-1 {
 		display:none;
 	}
-	.nav-submenu {
+	.nav-depth-1 {
 		position:static;
 		width:100%;
 	}
