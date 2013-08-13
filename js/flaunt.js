@@ -15,7 +15,7 @@
 	$(function() {
 		
 		// Append the mobile icon nav
-		$('.a-nav-main').append($('<div class="nav-mobile"></div>'));
+		$('.a-nav-main').append($('<div class="nav-mobile">test</div>'));
 		
 		// Add a <span> to every .nav-item that has a <ul> inside
 		$('.a-nav-item-0').has('ul').prepend('<span class="nav-click"><i class="nav-arrow"></i></span>');
